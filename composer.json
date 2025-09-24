@@ -1,10 +1,14 @@
 {
-    "name": "silverstripe-module/skeleton",
-    "description": "A skeleton for Silverstripe CMS modules.",
+    "name": "td204/silverstripe-custom-admin",
+    "description": "Provide a base module to create custom CMS admin sections with full freedom beyond ModelAdmin. Useful for dashboards, overviews, quick settings, task launchers and custom tables.",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
-        "CMS"
+        "cms",
+        "admin",
+        "custom",
+        "dashboard",
+        "free"
     ],
     "license": "BSD-3-Clause",
     "require": {
@@ -19,8 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripeModule\\Skeleton\\": "src/",
-            "SilverStripeModule\\Skeleton\\Tests\\": "tests/php/"
+            "CustomAdmin\\": "src/",
+            "CustomAdmin\\Tests\\": "tests/php/"
         }
     },
     "extra": {
